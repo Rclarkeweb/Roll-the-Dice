@@ -12,7 +12,6 @@
   text-align: center;
   display: inline-block;
   margin-top: 10px;
-
 }
 
 .info-box {
@@ -58,7 +57,7 @@ h1 {
   margin: 30px;
   font-size: 3rem;
   color: #4b3b47;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 button {
@@ -67,7 +66,7 @@ button {
   margin: auto;
   padding: 15px;
   background-color: #4b3b47;
-  color:#e0d8de;
+  color: #e0d8de;
   border: none;
   border-radius: 15px;
   font-size: 1.5rem;
@@ -77,10 +76,9 @@ button {
 p {
   font-size: 2rem;
   color: #4b3b47;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 img {
   width: 80%;
 }
-
