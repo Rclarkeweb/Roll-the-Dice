@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Roll the dice</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/69f7465c1a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <button id="info"><i class="fa-solid fa-circle-info"></i></button>
+
+      <div class="result">
+        <h1>Let's roll the dice!</h1>
+      </div>
+
+      <div class="info-box">
+        <p><button id="close"><i class="fa-solid fa-circle-xmark"></i></button>
+          How to play:<br/>
+          The aim of the game is to roll a higher number on your dice than your opponent, Player 2.</br>
+          To start the game click the 'Roll Dice' button.</br>
+          The result of the game will display on the screen.
+        </p>
+      </div>
+
+      <button id="play"><i class="fa-solid fa-dice fa-spin-pulse"></i> Roll Dice</button>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice7.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice7.png">
+      </div>
+
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- JavaScript file -->
+    <script src="app.js"></script>
+    
+  </body>
+
+</html>
